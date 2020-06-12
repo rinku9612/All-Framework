@@ -1,0 +1,3 @@
+com\inetBanking\testcase\BaseTest.class
+com\inetBanking\testcase\TC_002_LoginTestXLDP.class
+com\inetBanking\testcase\TC_001_LoginTest.class

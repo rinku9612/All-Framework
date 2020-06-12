@@ -1,0 +1,4 @@
+com\inetBanking\pageobjects\LoginPage.class
+com\inetBanking\utils\XLUtils.class
+com\inetBanking\utils\ReadConfig.class
+com\inetBanking\utils\Reporting.class

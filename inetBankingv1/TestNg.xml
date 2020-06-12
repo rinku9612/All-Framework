@@ -1,0 +1,12 @@
+<suite name="internetBanking">
+<listeners >
+<listener class-name="com.inetBanking.utils.Reporting"/>
+</listeners>
+<test name="Banking App Test">
+<parameter name="browser" value="edge"/>
+<classes>
+<class name="com.inetBanking.testcase.TC_001_LoginTest"/> 
+<!-- <class name="com.inetBanking.testcase.TC_002_LoginTestXLDP"/> -->
+</classes>
+</test>
+</suite>
