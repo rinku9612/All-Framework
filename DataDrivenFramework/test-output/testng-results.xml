@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successfully as Bank manager]]>
+    </line>
+    <line>
+      <![CDATA[HI ROHITCustomer added successfully with customer id :6]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Basic" duration-ms="5620" started-at="2020-06-05T16:45:29 IST" finished-at="2020-06-05T16:45:35 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="303" started-at="2020-06-05T16:45:29 IST" finished-at="2020-06-05T16:45:30 IST">
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@6221a451]" name="loginAsBankManager" duration-ms="180" started-at="2020-06-05T16:45:29 IST" finished-at="2020-06-05T16:45:30 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfully as Bank manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Add Customer Test" duration-ms="5046" started-at="2020-06-05T16:45:30 IST" finished-at="2020-06-05T16:45:35 IST">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@740cae06]" name="setUp" is-config="true" duration-ms="15391" started-at="2020-06-05T16:45:14 IST" finished-at="2020-06-05T16:45:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@740cae06]" name="addCustomer" duration-ms="4940" started-at="2020-06-05T16:45:30 IST" data-provider="getData" finished-at="2020-06-05T16:45:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[840972.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[HI ROHITCustomer added successfully with customer id :6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@740cae06]" name="tearDown" is-config="true" duration-ms="665" started-at="2020-06-05T16:45:35 IST" finished-at="2020-06-05T16:45:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Basic -->
+</testng-results>
