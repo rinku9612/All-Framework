@@ -34,8 +34,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="driver/mysql_driver.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Rinku/Downloads/jdbc-driver-1.0.54.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rinku/Downloads/mysql_driver.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

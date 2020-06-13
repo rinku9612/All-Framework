@@ -5,7 +5,7 @@
     <classes>
       <class name="com.rmgyantra.project.AddProject">
         <methods>
-          <include name="assSingleProjectTest"/>
+          <include name="addSingleProjectTest"/>
           <include name="afterSuite"/>
           <include name="config"/>
         </methods>
